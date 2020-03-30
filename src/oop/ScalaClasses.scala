@@ -1,6 +1,6 @@
 package oop
 
-object ScalaObjectOrientation extends App {
+object ScalaClasses extends App {
   /**
    * Classes and Objects
    */
