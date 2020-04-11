@@ -26,17 +26,15 @@ object ScalaClasses extends App {
   /**
    * Inheritance
    */
-  class Child1(
-                firstName: String,
-                lastName: String,
-                age: Int,
-                homeAddress: String) extends Person(firstName, lastName, age ,homeAddress) {
+  class Child1(firstName: String,
+               lastName: String,
+               age: Int,
+               homeAddress: String) extends Person(firstName, lastName, age ,homeAddress) {
 
   }
-  class Child2(
-                firstName: String,
-                lastName: String,
-                age: Int, homeAddress: String) extends Person(firstName, lastName, age ,homeAddress) {
+  class Child2(firstName: String,
+               lastName: String,
+               age: Int, homeAddress: String) extends Person(firstName, lastName, age ,homeAddress) {
 
   }
 }
